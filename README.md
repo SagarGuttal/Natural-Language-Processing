@@ -84,11 +84,11 @@
             Sarcasm Detection, Summarixation and topic modeling
 
 
-# Challenges of NLP
+## Challenges of NLP
 1. Ambiguity (ಅಸ್ಪಷ್ಟತೆ) : It is the presence of two or more possible meanings in a single passage.
     Example: We saw her duck.
     It can mean - We saw lower her head or We saw the duck belonging to her.
-# common Knowledge Assumption
+## common Knowledge Assumption
     1. Refers to set of all facts are known 
     2. Assumed that these facts are already known
     3. Difficult for computers to process the same
@@ -98,3 +98,31 @@
     4. Humans are creative beings
     5. Various Dialects, styles, variation are used in any language
     6. Difficult for machines to understand the creativity of humans
+
+## NLP Pipline
+    * The step by step processing of text is known as Pipeline
+    * Main components of an NLP pipline are
+        1. Data collection 
+            * Its a process of gathering, fildtering and cleaning data before the data is put in a data warehouse or any other storage solution.
+            * It is the process  of retrieving relevant business information, transforming the data into the required business form and loading it into the designated system.
+        2. Text cleaning
+            * Text cleaning is the process of preparing raw text for NLP (Natual Language Processing) so that machines can understand human language.
+            * We remove all the other non-textual information like metadata, markup, tags, etc
+        3. pre - processing
+            To bring the text into a form that is predictable and analyzable techniques for our task
+            techniques are
+                1. Lowercasing
+                2. Tokenation
+                3. Sentence segmentation
+                4. Stemming
+                5. Lemmatization
+                6. POS tagging etc
+        4. Feature Engineering
+            * Process of using domain knowledge of the data to create features that make machine learning algorithms work
+            * Capture the characteristics of text into a numerical format which can be understood by ML Algorithms.
+            * Word embeddings, CountVectorizer, TF-IDF Vectorizer, etc are some of the methods of converting the text data into numerical format.
+        5. Modeling
+            Involves application of ML algorithms to learn the pattern in the dataset
+        6. Evaluation
+        7. Deployment
+        8. Monitoring
