@@ -127,6 +127,44 @@
         7. Deployment
         8. Monitoring
 
+## NLTK Library
+    * Text Preprocessing Library
+    * Most widely used NLP Library
+    * Provides the most modlues for the text processing operations like :-
+        * Tokenization
+        * stemming 
+        * tagging 
+        * Parsing
+
+### Most common Text Preprocessing Steps in NLP
+    1. Tokenization
+    2. Stop words removal 
+    3. Stemming
+    4. Lemmantization
+    5. Word Sence disambiguation 
+    6. Part of speech tagging (POS)
+    7. NER (Named Entity recognition)
+
+## Tokenization  
+* Tokenization is the process of breaking up text into smaller pieces called the tokens.
+
+## Types of tokenizers in NLTK
+* word_tokenize()
+* wordpunct_tokenize()
+* sent_tokenize()
+
+## Unigram, Bigrams , Trigrams and Ngrams 
+* Default --> Unigram - Tokens of single consecutive words in a sentence
+1. Bigrams
+* Tokens of two consecutive words in a sentence
+
+2. Trigrams 
+* Tokens of three consecutive words in a sentence
+
+3. Ngrams
+* Tokens of any number of consecutive words in a sentence
+
+
 
 
 
